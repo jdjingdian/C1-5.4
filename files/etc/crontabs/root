@@ -1,5 +1,0 @@
-39 */3 * * * /usr/bin/getnoddosdeviceprofiles;  if [ $? -gt 0 ]; then service noddos reload; fi
-00 3 * * 0 sleep 5 && touch /etc/banner && reboot
-0 1 * * * echo "" > /tmp/ssrplus.log
-0 2 * * * /usr/share/shadowsocksr/ssrplusupdate.sh >> /tmp/ssrplus.log 2>&1
-*/40 * * * * /etc/init.d/frp restart
