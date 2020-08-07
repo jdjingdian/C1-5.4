@@ -1,0 +1,12 @@
+
+config frps 'main'
+	option server 'frps'
+	option client_file '/usr/bin/frps'
+	option bind_port '7000'
+	option tcp_mux 'true'
+	option token 'jingdian'
+	option dashboard_port '7500'
+	option dashboard_user 'admin'
+	option dashboard_pwd 'jingdian'
+	option enabled '1'
+
